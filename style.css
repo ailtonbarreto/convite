@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-bg: #b5dfec;
     --color-card: #ecf0f1;
     --color-text: #004a88;
@@ -94,6 +94,9 @@ body {
     display: block;
 }
 
+.flowers img {
+    width: 10vw;
+}
 
 .endereco {
     margin-top: 20px;
@@ -122,6 +125,21 @@ body {
     width: auto;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: #007f88;
+}
+
+@media (max-width: 768px) or (orientation: portrait) {
+
+
+    .casal img {
+        width: 40vw;
+    }
+
+    .flowers img {
+        display: none;
+    }
+
+
+
 }
