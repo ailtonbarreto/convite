@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -52,7 +51,7 @@ body {
 
 .nomes {
     font-family: 'Great Vibes', cursive;
-    font-size: 50px;
+    font-size: 5vw;
     color: var(--color-text);
     margin-bottom: 20px;
     word-spacing: 1vw;
@@ -87,7 +86,7 @@ body {
 }
 
 .dia {
-    font-size: 50px;
+    font-size: 3vw;
     color: #004a88;
 }
 
@@ -144,6 +143,13 @@ body {
         display: none;
     }
 
+    .nomes {
+        font-size: 10vw;
+    }
+
+    .dia {
+        font-size: 8vw;
+    }
 
 
 }
