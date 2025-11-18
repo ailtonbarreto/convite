@@ -90,6 +90,15 @@ body {
     color: #004a88;
 }
 
+.contador{
+    color: var(--color-text);
+    /* background-color: var(--color-bg); */
+    padding: 0.5vw;
+    font-weight: bold;
+    border-radius: 0.3vw;
+    /* box-shadow: 5px 5px 31px -6px #000000; */
+}
+
 
 .casal img {
     width: 10vw;
@@ -148,7 +157,7 @@ body {
     }
 
     .dia {
-        font-size: 8vw;
+        font-size: 5vw;
     }
 
 
