@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root {
-    --color-bg: #b5dfec;
+    --color-bg: #dbf3fa;
     --color-card: #ecf0f1;
     --color-text: #004a88;
 }
@@ -16,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1vw;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
     height: 100vh;
 }
 
@@ -41,7 +45,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: var(--color-text);
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     /* line-height: 4vw; */
 }
 
@@ -61,7 +65,8 @@ body {
     align-items: center;
     margin-bottom: 10px;
     padding: 0 10px;
-    gap: 10vw;
+    gap: 6vw;
+    font-style: italic;
 }
 
 .lado {
@@ -82,9 +87,8 @@ body {
 }
 
 .dia {
-    font-size: 60px;
+    font-size: 50px;
     color: #004a88;
-    margin: 5px 0;
 }
 
 
