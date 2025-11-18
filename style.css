@@ -1,0 +1,127 @@
+:root{
+    --color-bg: #b5dfec;
+    --color-card: #ecf0f1;
+    --color-text: #004a88;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+}
+
+
+.card {
+    width: 95%;
+    background: var(--color-card);
+    padding: 40px 25px;
+    border-radius: 20px;
+    border: 8px double #d4af37;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+
+}
+
+
+.top-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-text);
+    margin-bottom: 40px;
+    /* line-height: 4vw; */
+}
+
+
+.nomes {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: var(--color-text);
+    margin-bottom: 20px;
+    word-spacing: 1vw;
+}
+
+
+.linha-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    gap: 10vw;
+}
+
+.lado {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.centro-data {
+    text-align: center;
+}
+
+.mes,
+.ano {
+    color: #004a88;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.dia {
+    font-size: 60px;
+    color: #004a88;
+    margin: 5px 0;
+}
+
+
+.casal img {
+    width: 10vw;
+    margin: auto;
+    display: block;
+}
+
+
+.endereco {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #003b66;
+    line-height: 1.5;
+}
+
+
+.confirmacao {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #003b66;
+}
+
+.botao {
+    background: var(--color-text);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+.botao:hover{
+    background-color: #007f88;
+}
