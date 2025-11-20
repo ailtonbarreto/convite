@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmar Presença</title>
-
+    <link rel="shortcut icon" href="./bride.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&display=swap"
         rel="stylesheet">
 
@@ -23,132 +23,44 @@
         background: #b5dfec;
         font-family: 'Playfair Display', serif;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 40px 20px;
         height: 100vh;
     }
 
     .card {
         width: 95%;
-        max-width: 430px;
+        height: 95%;
         background: #ffffff;
-        padding: 35px 25px;
         border-radius: 18px;
         border: 7px double #d4af37;
-        text-align: center;
-    }
-
-    .titulo {
-        font-family: 'Great Vibes', cursive;
-        font-size: 48px;
-        color: #004a88;
-        margin-bottom: 15px;
-    }
-
-
-    .sub {
-        color: #003b66;
-        font-size: 17px;
-        margin-bottom: 30px;
-    }
-
-    .formulario {
         display: flex;
-        flex-direction: column;
-        gap: 18px;
-        text-align: left;
+        align-items: center;
+        justify-content: center;
     }
 
-    label {
-        font-size: 16px;
-        font-weight: bold;
-        color: #003b66;
+    iframe{
+        width: 98%;
+        height: 95%;
     }
 
-    input,
-    select,
-    textarea {
-        padding: 12px;
-        border: 2px solid #7abbd4;
-        border-radius: 6px;
-        font-size: 16px;
-        outline: none;
-        background: #ffffffd9;
-        font-family: 'Playfair Display', serif;
-        color: #003b66;
-    }
 
-    input:focus,
-    select:focus,
-    textarea:focus {
-        border-color: #004a88;
-    }
-
-    button {
-        margin-top: 10px;
-        padding: 12px;
-        background: #004a88;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        border: none;
-        border-radius: 7px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background: #00345e;
-    }
 </style>
 
 <body>
 
+    <!-- <h1 class="titulo">Confirmar Presença</h1> -->
+
     <div class="card">
 
-        <h1 class="titulo">Confirmar Presença</h1>
 
-        <p class="sub">
-            Estamos muito felizes em ter você conosco.<br>
-            Por favor, preencha os campos abaixo:
-        </p>
-
-        <form class="formulario" onsubmit="enviarConfirmacao(event)">
-
-            <label>Seu Nome</label>
-            <input type="text" placeholder="Digite seu nome" required id="nome">
-
-            <button>Confirmar</button>
-
-        </form>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3wBbkYLYQ5bjOizFkoHuQmRaidcTOmYaB4HOidct_F_ZcbA/viewform?usp=publish-editor" frameborder="0"></iframe>
 
 
     </div>
 
 </body>
-
-<script>
-function enviarConfirmacao(event) {
-    event.preventDefault(); 
-
-    const nome = document.getElementById("nome").value.trim();
-
-    if (!nome) {
-        alert("Por favor, digite seu nome!");
-        return;
-    }
-
-
-    const mensagem = `Olá Fernando, tudo bem? Aqui é o ${nome} e estou passando para confirmar presença no seu casamento!`;
-
-    const msgCodificada = encodeURIComponent(mensagem);
-
-
-    const url = `https://wa.me/5516991231502?text=${msgCodificada}`;
-    window.open(url, "_blank");
-}
-</script>
-
 
 
 </html>
