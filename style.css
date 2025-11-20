@@ -53,7 +53,6 @@ body {
     font-family: 'Great Vibes', cursive;
     font-size: 5vw;
     color: var(--color-text);
-    margin-bottom: 20px;
     word-spacing: 1vw;
 }
 
@@ -78,15 +77,9 @@ body {
     text-align: center;
 }
 
-.mes,
-.ano {
-    color: #004a88;
-    font-size: 19px;
-    font-weight: bold;
-}
 
 .dia {
-    font-size: 3vw;
+    font-size: 2vw;
     color: #004a88;
 }
 
@@ -111,7 +104,6 @@ body {
 }
 
 .endereco {
-    margin-top: 20px;
     font-size: 16px;
     color: #003b66;
     line-height: 1.5;
