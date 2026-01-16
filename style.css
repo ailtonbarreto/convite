@@ -159,12 +159,13 @@ body {
     }
 
     .endereco{
-        margin: 5vw;
+        margin: 7vw;
     }
 
     .botao{
         width: 50vw;
-        font-size: 2.5vw;
+        font-size: 4vw;
+        padding: 1vw;
     }
     .casal img {
         width: 40vw;
@@ -180,6 +181,10 @@ body {
 
     .dia {
         font-size: 5vw;
+    }
+
+    .confirmacao{
+        margin: 0.3vw;
     }
 
 }
