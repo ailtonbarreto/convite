@@ -105,7 +105,7 @@ body {
 
 .endereco_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
 
@@ -121,6 +121,7 @@ body {
         font-size: 16px;
         color: #003b66;
         line-height: 1.5;
+        margin: 1vw;
     }
 
 }
@@ -135,14 +136,14 @@ body {
 .botao {
     background: var(--color-text);
     color: white;
-    padding: 12px 18px;
+    padding: 0.4vw;
     border-radius: 8px;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
     margin-top: 5px;
     cursor: pointer;
-    width: auto;
+    width: 15vw;
 }
 
 .botao:hover {
@@ -153,19 +154,18 @@ body {
 
     .endereco_container {
         display: flex;
-        flex-direction: column-reverse;
         align-items: center;
-
-        .material-symbols-outlined {
-            color: var(--color-text);
-            font-size: 7vw !important;
-            cursor: pointer;
-            margin-top: 2vw;
-        }
-
+        flex-direction: column;
     }
 
+    .endereco{
+        margin: 5vw;
+    }
 
+    .botao{
+        width: 50vw;
+        font-size: 2.5vw;
+    }
     .casal img {
         width: 40vw;
     }
@@ -181,6 +181,5 @@ body {
     .dia {
         font-size: 5vw;
     }
-
 
 }
