@@ -20,7 +20,7 @@ body {
     align-items: center;
     padding: 1vw;
     font-family: 'Poppins', serif;
-    height: auto;
+    min-height: 100vh;
 }
 
 
@@ -136,18 +136,29 @@ body {
 .botao {
     background: var(--color-text);
     color: white;
-    padding: 0.4vw;
+
+    padding: 12px 20px;
+
     border-radius: 8px;
-    display: inline-block;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-size: 16px;
     font-weight: bold;
+
     margin-top: 5px;
     cursor: pointer;
-    width: 15vw;
+
+    width: 100%;
+    max-width: 260px;
+
+    text-align: center;
 }
 
 .botao:hover {
-    background-color: #007f88;
+    background-color: #023a6e;
 }
 
 @media (max-width: 768px) or (orientation: portrait) {
