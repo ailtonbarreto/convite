@@ -127,16 +127,16 @@ body {
 
 .botao {
     background: var(--color-text);
-    color: white;
-    padding: 12px 20px;
+    color: var(--color-bg);
+    padding: 8px 10px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    max-width: 260px;
+    width: 220px;
     text-align: center;
 }
 
@@ -158,8 +158,8 @@ body {
 
     .botao{
         width: 50vw;
-        font-size: 4vw;
-        padding: 1vw;
+        font-size: 14px;
+        padding: 2vw;
     }
     .casal img {
         width: 40vw;
@@ -173,8 +173,5 @@ body {
         font-size: 5vw;
     }
 
-    .confirmacao{
-        margin: 0.3vw;
-    }
 
 }
