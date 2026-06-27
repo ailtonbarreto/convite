@@ -15,28 +15,25 @@
 
 body {
     background: var(--color-bg);
+    font-family: 'Poppins', serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1vw;
-    font-family: 'Poppins', serif;
     min-height: 100vh;
+    margin: 0;
 }
 
 
 .card {
     width: 95%;
+    height: 90vh;
     background: var(--color-card);
-    padding: 40px 25px;
-    border-radius: 20px;
-    border: 8px double #d4af37;
+    /* border: 8px double #d4af37; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 95vh;
-
 }
 
 
@@ -44,8 +41,6 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: var(--color-text);
-    margin-bottom: 25px;
-    /* line-height: 4vw; */
 }
 
 
@@ -54,6 +49,7 @@ body {
     font-size: 5vw;
     color: var(--color-text);
     word-spacing: 1vw;
+    margin: 1vw;
 }
 
 
@@ -99,9 +95,6 @@ body {
     display: block;
 }
 
-.flowers img {
-    width: 10vw;
-}
 
 .endereco_container {
     display: flex;
@@ -126,7 +119,6 @@ body {
 
 }
 
-
 .confirmacao {
     margin: 20px 0;
     font-size: 16px;
@@ -136,24 +128,15 @@ body {
 .botao {
     background: var(--color-text);
     color: white;
-
     padding: 12px 20px;
-
     border-radius: 8px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-size: 16px;
     font-weight: bold;
-
-    margin-top: 5px;
     cursor: pointer;
-
-    width: 100%;
     max-width: 260px;
-
     text-align: center;
 }
 
@@ -180,10 +163,6 @@ body {
     }
     .casal img {
         width: 40vw;
-    }
-
-    .flowers img {
-        display: none;
     }
 
     .nomes {
